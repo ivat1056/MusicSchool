@@ -1,0 +1,261 @@
+
+body{
+    background: rgb(191, 181, 226);
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-image: -webkit-linear-gradient(top, rgb(193, 144, 201), rgb(155, 73, 172));
+    padding:2%;
+    width: 70%;
+    margin:auto;
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgb(49, 48, 48);
+}
+#myFooter {
+    background-color: purple!important;
+}
+footer{
+    background-color: purple;
+}
+nav ul{
+    list-style: none;
+    font-size: 0px;
+}
+nav>ul>li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 30px;
+    background: purple;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav>ul{
+    background: purple;
+
+}
+a.color:hover {
+    color: white; 
+    background: rgb(183, 136, 190);
+}
+.vid{
+    color: white;
+    background: rgb(183, 136, 190);
+}
+form {
+    width:90%;
+    margin:2% 2%;
+    background: rgb(183, 136, 190);
+    border-radius: 15px;
+                box-shadow: 0 0 50px rgb(49, 48, 48);
+}
+button {
+    color: white;
+    background: purple;
+    font-size: 20px;
+}
+table{
+    width:80%;
+    margin:5% 10%;
+    background: rgb(183, 136, 190);
+    box-shadow: 0 0 50px rgb(49, 48, 48);
+    
+}
+
+#table th, #table td:first-child {
+    background: rgb(139, 49, 139);
+    color: rgb(207, 178, 200);
+    padding: 10px 20px;
+    
+}
+#table th, #table td {
+border-style: solid ;
+border-width: 0 1px 1px 0;
+border-color: rgba(192, 116, 173, 0.178);
+
+}
+#table td {
+background: rgb(190, 153, 196);
+
+
+}
+header{
+    background-color: rgb(191, 181, 226);
+    height:160px;
+    margin-bottom: 0%;
+}
+h2 {
+    padding-top: 15px;
+    text-shadow: 2px 2px 1px rgb(68, 67, 67);
+}
+.tor {
+    margin: auto;
+    padding: auto;
+   border: solid 5px purple ;
+   border-radius: 5px;
+
+}
+.primer{
+
+    margin: auto;
+    padding: 10px 0px ;
+    text-align: center;
+    border-bottom: 5px solid purple ;
+    }
+    .col{
+        color: black; 
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    .centt{
+        text-align: right;
+        padding: 33px 0px 0px 0px;
+        }
+        .contt{
+            padding: 25px 0px 0px 0px;
+        }
+        .img1{
+            width: 250px;
+            text-align: center;
+            
+            }
+            p{
+                font-size: 15px;
+                text-align: justify;
+                padding: 5px;
+                }
+                h1 {
+                font-size: 40px;
+                text-transform: uppercase;
+                text-align: center;
+                }
+                .size{
+                    font-size: 14px;
+                    color: white;
+                }
+               .rt{
+                   background-color: rgb(183, 136, 190);
+                   margin-top: 0px;
+                   width: 80%;
+               }
+               .ty{
+                background: rgb(191, 181, 226);
+                padding:0%;
+                width: 100%;
+                margin:auto;
+               }
+               .si{
+                font-size: 14px;
+                color: white;
+                text-align: center;
+            }
+            
+            .image img{
+                transition: 0,5s;
+                display: block;
+            }
+            .image img:hover{
+                transform: scale(2);
+            }
+            
+            .pagination {
+                display: inline-block;
+                padding: 0;
+                margin-top: 3%;
+            }
+            .pagination li{
+                display: inline;
+            }
+            .pagination li a{
+                color: black;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            ul.pagination li a.active {
+                background-color: purple;
+                color: white;
+            }
+            ul.pagination li a:hover:not(.active){
+                background-color: rgb(148, 79, 133);
+            }
+            ul.pagination li a {
+                border: 1px solid rgb(105, 15, 98);
+            }
+            .pagination li:first-child a{
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            .pagination li:last-child a{
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .left {
+                float: left;
+                padding: 0 2% 1% 0;
+             }
+             img {
+                border-radius: 10px;
+                 box-shadow: 0 0 40px rgb(54, 52, 52);
+                
+             }
+             html{
+                scroll-behavior: smooth
+            }
+            .ft{
+                text-shadow: 2px 2px 1px rgb(68, 67, 67);
+            }
+            #clock{
+                color: purple;
+                font-weight: bold;
+                font-size: 40px;
+              }
+              .button {
+                position: relative;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background: #6e1d68;
+                padding: 1em 2em;
+                border: none;
+                color: white;
+                font-size: 1.2em;
+                cursor: pointer;
+                outline: none;
+                overflow: hidden;
+                border-radius: 100px;
+                }
+                 
+                .button span {
+                position: relative;
+                pointer-events: none;
+                }
+                 
+                .button::before {
+                --size: 0;
+                content: '';
+                position: absolute;
+                left: var(--x);
+                top: var(--y);
+                width: var(--size);
+                height: var(--size);
+                background: radial-gradient(circle closest-side, #b443a5, transparent);
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                transition: width .2s ease, height .2s ease;
+                }
+                 
+                .button:hover::before {
+                --size: 400px;
+                }
+                    .cr{
+                        text-align: center;
+                        font-size: 22px;
+                        color: purple;
+                    }
